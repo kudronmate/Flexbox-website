@@ -1,0 +1,163 @@
+* {
+    font-family: fantasy;
+}
+
+.header{
+    background-color:rgb(68, 36, 97);
+    height: auto;
+    width: auto;
+}
+
+.header1 {
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.header2 {
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    align-items: center;
+    gap: 50px;
+}
+
+#pic1 {
+    height: 100px;
+    width: 100px;
+    align-content:flex-start
+}
+
+ul {
+    display:flex;
+    list-style-type: none;
+    gap: 80px;
+}
+
+a {
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+}
+
+
+#pic2 {
+    height: 200px;
+    width: 200px;
+}
+
+#explore {
+    font-size:40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#click {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#sign{
+    font-size: 20px;
+}
+
+.content {
+    margin-top: 50px;
+
+}
+
+#pic {
+    height: 300px;
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 2px 4px;
+    margin-bottom: 5px;
+}
+
+.info{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mainpics{
+    display:flex;
+    justify-content:center;
+    gap: 40px;
+    font-size: 20px;
+    align-items: center;
+}   
+
+.para2{  
+    height: 500px;
+}
+
+.para3{
+    height:350px;
+    background-color: grey;
+    display:flex;
+    justify-content:space-between;
+    color: whitesmoke;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight: 900;
+    align-self: center;
+}
+
+#picround {
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 5px white;
+    box-shadow: 2px 4px grey;
+    border-radius: 25px;
+    margin-top: 90px;
+}
+
+.para4 {
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(70, 70, 173);  
+    height: 200px;
+    color:white;
+    display:flex;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.text{
+    font-size: 30px;
+    align-self:center;
+}
+
+.signup {
+    font-size: 15px;
+    align-self:center;
+}
+
+.footer{
+    background-color:rgb(68, 36, 97);
+    color:white;
+    font-size:20px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
